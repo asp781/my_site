@@ -1,0 +1,173 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="shortcut icon" href="{% static "images/0000.ico" %}">
+
+<title>строительство домов, стоимость строительства, технологии строительства</title>
+<meta name="keywords" content="строительство домов, стоимость строительства, технологии строительства">
+<meta name="description" content="Экранстрой. Строительство домов из кирпича и стеновых блоков, земляные и бетонные работы, монтаж кровли и ограждений, отделка под ключ, коммуникации.">
+
+<style>
+	td{font-family:Tahoma;font-size:11px;color:#000000;}
+	a{color:#388C3C}
+	.cap{font-weight:bold;color:#FEE803;padding-top:10px;}
+	.left{color:#ffffff;padding-right:5px;}
+	.mid{color:#000000;padding-right:30px;padding-top:15px;}
+	.mid2{color:#000000;padding-right:10px;padding-left:15px;}
+	.menu{text-decoration:none;color:#000000;}
+	body p {
+		font-size: 14px;
+	}
+</style>
+</head>
+
+<body background="{% static "images/fon.jpg" %}" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+	<table cellpadding="0" cellspacing="0" border="0" height="100%">
+		<tr>
+			<td rowspan="10" width="50%" height="100%" background="{% static "images/fon.jpg" %}" style="background-position:right top; background-repeat:repeat-y"></td>
+			<td rowspan="10" width="1" bgcolor="#000000"></td>
+			<td colspan="2" valign="top">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td rowspan="2"><img src="{% static "images/p01.jpg" %}"></td>
+						<td><img src="{% static "images/p02.gif" %}"></td>
+					</tr>
+					<tr>
+						<td><a href="{% url 'mailto' %}"><img src="{% static "images/t04.png" %}" border="0"></a></td>
+					</tr>
+					<tr>
+						<td colspan="2"><img src="{% static "images/name.jpg" %}"></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<a href="{% url 'index' %}"><img src="{% static "images/m01.jpg" %}" border="0"></a>
+							<a href="{% url 'o_nas' %}"><img src="{% static "images/m02.jpg" %}" border="0" /></a>
+							<a href="{% url 'uslugi' %}"><img src="{% static "images/m03.jpg" %}" border="0"></a>
+							<a href="{% url 'price' %}"><img src="{% static "images/m04.jpg" %}" border="0"></a>
+							<a href="{% url 'technologi' %}"><img src="{% static "images/m06.jpg" %}" border="0"></a>
+							<a href="{% url 'nasi_raboti' %}"><img src="{% static "images/m07.jpg" %}" border="0"></a>
+							<a href="{% url 'contacts' %}"><img src="{% static "images/m08.jpg" %}" border="0"></a>
+						</td>
+					</tr>
+				</table>
+				</td>
+				<td rowspan="10" width="1" bgcolor="#000000"></td>
+				<td rowspan="10" width="50%" height="100%" background="{% static "images/fon.jpg" %}" style="background-position:left top; background-repeat:repeat-y"></td>
+			</tr>
+			<tr>
+				<td valign="top"  height="100%" width="245" background="{% static "images/bgleft.gif" %}" style="background-repeat:repeat-y;">
+					<table cellpadding="0" cellspacing="0" border="0" height="100%">
+						<tr>
+							<td><a href="{% url 'nasi_raboti' %}"><img src="{% static "images/cap01.gif" %}"></td>
+							</tr>
+							<tr>
+								<td height="151" valign="top">
+									<a href="{% url 'gostinica' %}"><img src="{% static "images/gostinica_logo.jpg" %}" hspace="10" vspace="10" align="left"></a>
+									<div class="cap">_________<u>ГОСТИНИЦА</u></div>
+									<div class="left"></div>
+									<div style=""><a href="{% url 'gostinica' %}"><img src="{% static "images/learnmore.jpg" %}" border="0" vspace="10"></a></div></div>
+								</td>
+							</tr>
+							<tr>
+								<td height="151" valign="top">
+									<a href="{% url 'dom' %}"><img src="{% static "images/dom_logo.jpg" %}" hspace="10" vspace="10" align="left"></a><strong class="cap"> ____________<u>ДОМ</u></strong>
+									<div class="left"></div>
+									<div style=""><a href="{% url 'dom' %}"><img src="{% static "images/learnmore.jpg" %}" border="0" vspace="10"></a></div></div>
+								</td>
+							</tr>
+							<tr>
+								<td height="151" valign="top">
+									<a href="{% url 'otdelka' %}"><img src="{% static "images/otdelka_logo.jpg" %}" hspace="10" vspace="10" align="left"></a><strong class="cap">_____<u>ВНУТРЕННЯЯ ОТДЕЛКА</u></strong>
+									<div class="left"></div>
+									<div style=""><a href="{% url 'otdelka' %}"><img src="{% static "images/learnmore.jpg" %}" border="0" vspace="10"></a></div></div>
+								</td>
+							</tr>
+							<tr>
+								<td height="151" valign="top">
+									<a href="{% url 'avtoservis' %}"><img src="{% static "images/avtoserv_logo.jpg" %}" hspace="10" vspace="10" align="left"></a><strong class="cap">_________<u>АВТОСЕРВИС</u></strong>
+									<div class="left"></div>
+									<div style=""><a href="{% url 'avtoservis' %}"><img src="{% static "images/learnmore.jpg" %}" border="0" vspace="10"></a></div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="{% static "images/lineleft.gif" %}" vspace="10"></td>
+							</tr>
+							<tr>
+								<td height="100%"></td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top" height="100%"><table cellpadding="0" cellspacing="0" border="0" height="100%">
+						<tr>
+							<td><img src="{% static "images/capwekcome.gif" %}"></td>
+							<td width="272" height="42" background="{% static "images/bgsearch.gif" %}"><div style="padding-left:90px;padding-top:3px;">
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										{% comment %} <td><? require (‘phprusearch/sinc/form.php’) ?></td> {% endcomment %}
+										<td><a href=""><input type="text" style="width:117;height:20" /></a></td>
+									</tr>
+
+	        </table>
+	      </div></td>
+	    </tr>
+	<tr>
+	    <td colspan="2" width="535" height="100%" background="{% static "images/bgmid.gif" %}" valign="top"><table cellspacing="0" border="0">
+<tr>
+    {% block content %}
+    {% endblock %}
+</tr>
+<tr>
+    <td colspan="2" valign="top">
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td valign="top">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td valign="top">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td rowspan="4" width="10"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" width="158" height="1" bgcolor="#BBBBBB"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" width="158" height="1" bgcolor="#BBBBBB"></td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+    </table>
+    </td>
+</tr>
+<tr>
+    <td height="100%"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2"><img src="{% static "images/bottom.gif" %}"></td>
+
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="780" height="28" background="{% static "images/bgmenu.gif" %}" align="center" class="menu"><a href="index.html" class="menu">ГЛАВНАЯ</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="o_nas.html" class="menu">О НАС</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="uslugi.html" class="menu">УСЛУГИ</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="etapy.html" class="menu">ЭТАПЫ</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="technologi.html" class="menu">ТЕХНОЛОГИИ</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="contacts.html" class="menu">КОНТАКТЫ</a></td>
+</tr>
+<tr>
+<td colspan="2" width="780" height="52" background="{% static "images/footer.gif" %}" align="center">«ЭкранСтрой» © 2013   •   <a href="" class="menu">Все права защищены</a>   •   <a href="" class="menu">Разработано Студия Рекламы «Идея»</a>
+
+
+</td>
+</tr>
+</table>
+</body>
+</html>
